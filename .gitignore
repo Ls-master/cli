@@ -1,0 +1,31 @@
+.DS_Store
+node_modules/
+/dist/
+/config/local.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+/.idea/
+selenium-debug.log
+/config/config.local.json
+.cache
+
+# Editor directories and files
+.idea/workspace.xml
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bat
+yarn.lock
+
+/src/components/bpm/form
+
+
+// 临时忽略
+/build/vendor-mainfest.json
+/static/js/vendor.dll.js

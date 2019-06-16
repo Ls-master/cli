@@ -1,0 +1,52 @@
+.vue-treeselect {
+  // position: relative;
+  // width: 100%;
+  // margin-top: 25px;
+  // margin-bottom: 50px;
+  .vue-treeselect__control {
+    .vue-treeselect__value-container {
+      line-height: 34px;
+      .vue-treeselect__placeholder {
+        padding-left: 10px;
+      }
+      .vue-treeselect__input-container {
+        height: 34px;
+        .vue-treeselect__input {
+          height: 34px;
+        }
+      }
+    }
+  }
+
+  .vue-treeselect__menu-container {
+    .vue-treeselect__menu {
+      z-index: 9999;
+      position: relative;
+      .vue-treeselect__list {
+        // z-index: 999;
+        .vue-treeselect__list-item {
+          // z-index: 999;
+          .vue-treeselect__option {
+            .vue-treeselect__label-container {
+              .vue-treeselect__label {
+                font-size: 13px;
+                font-weight: 400;
+                height: 36px;
+                line-height: 36px;
+                // padding: 0 12px;
+                color: #525975;
+              }
+            }
+          }
+          .vue-treeselect__option--selected {
+            .vue-treeselect__label-container {
+              .vue-treeselect__label {
+                color: #606ECC;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

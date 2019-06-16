@@ -1,0 +1,16 @@
+.el-checkbox {
+  .el-checkbox__inner {
+    width: 14px;
+    height: 14px;
+  }
+
+  .el-checkbox__label {
+    font-size: 13px;
+  }
+}
+
+.btm-flow-condition-area-wrap {
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    padding: 6px;
+  }
+}

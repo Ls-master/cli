@@ -1,0 +1,20 @@
+.el-picker-panel.el-popper {
+  margin: 5px 0;
+  .popper__arrow {
+    display: none;
+  }
+  .el-picker-panel__body-wrapper {
+    .el-picker-panel__content {
+      .el-date-range-picker__header {
+        > div {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// 日期范围选择器
+.el-date-editor--daterange.el-input__inner {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+
+
+!/src
+/src/*
+!/src/view
+/src/view/*
+!/src/view/bpm
+# !/src/view/metaData
+# !/src/view/oa
+
+!/src/components
+/src/components/*
+!/src/components/metaData

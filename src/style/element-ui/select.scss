@@ -1,0 +1,92 @@
+// .el-select {
+//   .el-input__inner {
+//     height: 36px;
+//     line-height: 36px;
+//     width: 270px;
+//   }
+//   .el-input__icon {
+//     line-height: 36px;
+//   }
+// }
+
+// select 下拉框
+.el-select-dropdown.el-popper {
+  margin: 5px 0;
+  .el-scrollbar {
+    padding: 5px 0;
+    .el-select-dropdown__list {
+      padding: 0;
+
+      .el-select-dropdown__item {
+        font-size: 13px;
+        font-weight: 400;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 12px;
+        &:hover {
+          background: $color-exlight-grey;
+        }
+        &.selected {
+          // color: #525975;
+          font-weight: normal;
+        }
+        // 编辑按钮
+        .option-btns {
+          float: right;
+          .btn{
+            margin-left: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            vertical-align: middle;
+
+            &:hover {
+              &:first-child{
+                color: $color-blue;
+              }
+              &:nth-child(2){
+                color: $color-red;
+              }
+            }
+          }
+        }
+        // select 弹窗
+        .open-dialog {
+          color: $color-blue;
+          cursor: pointer;
+        }
+      }
+
+      // .el-select-group__wrap {
+      //   &:not(:last-of-type) {
+      //     padding-bottom: 2px;
+      //
+      //     &::after {
+      //       display: none;
+      //     }
+      //   }
+      // }
+    }
+  }
+  .popper__arrow {
+    display: none;
+  }
+}
+.el-select {
+  .el-tag{
+    background-color: #f6f7FB;
+    color: #525975;
+  }
+}
+
+.btm-flow-condition-area-wrap {
+
+  .el-select {
+    width: 100%;
+  }
+
+  .el-input__inner {
+    background: white(0);
+    background-color: white(0);
+  }
+  
+}

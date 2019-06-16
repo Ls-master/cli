@@ -1,0 +1,27 @@
+.el-collapse.collapse-layout {
+  .el-collapse-item {
+    .el-collapse-item__header {
+      height: 36px;
+      line-height: 36px;
+      background: rgba(230, 233, 245, 0.4);
+      border: 1px solid #E6E9F5;
+      padding: 0 12px;
+      .el-collapse-item__arrow {
+        line-height: 36px;
+        font-size: 18px;
+        margin: 0;
+      }
+    }
+    .el-collapse-item__wrap {
+      width: 100%;
+      padding: 10px 20px;
+      background: #F6F7FB;
+      border: 1px solid #E6E9F5;
+      border-top: none;
+      border-radius: 2px;
+      .el-collapse-item__content {
+        padding-bottom: 0;
+      }
+    }
+  }
+}

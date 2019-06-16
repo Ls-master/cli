@@ -1,0 +1,67 @@
+/* z-index
+-------------------------- */
+$global-max-index: 1111!default;
+$page-max-index: 99!default;
+
+/* Colors
+-------------------------- */
+$color-white: #fff !default;
+$color-black: #000 !default;
+
+$color-primary: #606ECC !default;
+$color-secondary: #243983 !default;
+$color-tertiary: #363B52 !default;
+
+$color-grey: #CACEE0 !default;
+$color-dark-grey: #ABB1C7 !default;
+$color-light-grey: #E6E9F5 !default;
+$color-exlight-grey: #F6F7FB !default;
+$color-red: #F24E63 !default;
+$color-orange: #f5A05B !default;
+$color-green: #4EC2C0 !default;
+$color-blue: #3F9EE8 !default;
+
+/* Link
+-------------------------- */
+$link-color: #4495D4 !default;
+
+/* Font
+-------------------------- */
+$font-color-title: #2E3242 !default;
+$font-color-body: #525975 !default;
+$font-color-caption: #9094A3 !default;
+$font-color-disable: #CACEE0 !default;
+
+$font-size-large: 18px !default;
+$font-size-base: 14px !default;
+$font-size-small: 13px !default;
+$font-size-mini: 12px !default;
+
+$font-weight-primary: 500 !default;
+$font-weight-secondary: 400 !default;
+
+$font-line-height-primary: 20px !default;
+$font-line-height-secondary: 18px !default;
+$font-line-height-tertiary: 24px !default;
+
+/* Button
+-------------------------- */
+// $button-primary-normal:  !default;
+// $button-primary-color: $--color-white !default;
+// $--button-primary-fill: $--color-primary !default;
+
+
+/* Border
+-------------------------- */
+$border-color-base: #CACEE0 !default;
+$border-color-extra-light: #E6E9F5 !default;
+
+/* layout
+-------------------------- */
+$margin-base: 20px;
+
+$padding-base: 20px;
+
+/* border
+-------------------------- */
+$border-color-base: $color-light-grey;

@@ -1,0 +1,100 @@
+
+/* Font
+-------------------------- */
+
+@mixin kr-font($fs, $lh, $fc: $font-color-title, $fw: 400) {
+  font-size: $fs;
+  line-height: $lh;
+  color: $fc;
+  font-weight: $fw;
+}
+
+@mixin kr-fc($font: $font-size-base, $color: $color-grey) {
+  font-size: $font;
+  color: $color;
+}
+
+@mixin font-title-1($fc: $font-color-title, $fw: 500) {
+  @include kr-font(18px, 30px, $fc, $fw);
+}
+
+@mixin font-title-2($fc: $font-color-title, $fw: 500) {
+  @include kr-font(16px, 24px, $fc, $fw);
+}
+
+@mixin font-title-3($fc: $font-color-title, $fw: 500) {
+  @include kr-font(14px, 20px, $fc, $fw);
+}
+
+@mixin font-content-1($fc: $font-color-title, $fw: 400) {
+  @include kr-font(14px, 20px, $fc, $fw);
+}
+
+@mixin font-content-2($fc: $font-color-title, $fw: 400) {
+  @include kr-font(13px, 18px, $fc, $fw);
+}
+
+@mixin font-content-3($fc: $font-color-title, $fw: 400) {
+  @include kr-font(12px, 16px, $fc, $fw);
+}
+
+/* border
+-------------------------- */
+@mixin border-base($w: 1px, $type: solid, $color: $border-color-base) {
+  border: $w $type $color;
+}
+
+/* Size
+-------------------------- */
+@mixin wh-base($width: inherit, $height: inherit) {
+  width: $width;
+  height: $height;
+}
+
+/* box-shadow
+-------------------------- */
+@mixin shadow-base($t: 0, $r: 3px, $b: 12px, $l: 2px, $color: rgba(218,223,232,0.50)) {
+  box-shadow: $t $r $b $l $color;
+}
+
+/* ellipsis
+-------------------------- */
+@mixin ellipsis-oneline($w: 100%) {
+  width: $w;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin ellipsis-lines($w: 100%, $clamp: 2, $orient: 'vertical') {
+  width: $w;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $clamp;
+  -webkit-box-orient: $orient;
+}
+
+
+/* chart 专属
+-------------------------- */
+@mixin wh($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin fc($font, $color) {
+  font-size: $font;
+  color: $color;
+}
+
+@mixin setBorder($w, $color, $type: solid) {
+  border: $w $color $type;
+}
+
+.relative{
+  position: relative;
+}
+
+.ab{
+  position: absolute;
+}

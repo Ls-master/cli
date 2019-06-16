@@ -1,0 +1,86 @@
+// 默认单排
+.el-form {
+  padding: 10px 0;
+  .el-form-item {
+    margin-bottom: 18px;
+    .el-form-item__label {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-size: 12px;
+      line-height: 24px;
+      color: $font-color-body;
+      user-select: text;
+    }
+    .el-form-item__label:before {
+      content: '';
+      display: none;
+    }
+    &.is-required .el-form-item__label:after {
+      content: '*';
+      color: #F24E63;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+    .el-form-item__content {
+      .el-select {
+        width: 100%;
+      }
+    }
+  }
+  .el-form-item.is-success .el-input__inner,
+  .el-form-item.is-success .el-input__inner:focus,
+  .el-form-item.is-success .el-textarea__inner,
+  .el-form-item.is-success .el-textarea__inner:focus{
+    border-color: #dcdfe6 !important;
+  }
+}
+
+// 双排
+.el-form.form-doublerow {
+  display: flex;
+  flex-wrap: wrap;
+  .el-form-item {
+    width: 240px;
+    &:nth-child(odd) {
+      margin-right: 40px;
+    }
+    .el-form-item__label {
+
+    }
+    .el-form-item__content {
+
+    }
+  }
+}
+
+.el-form--label-top .el-form-item__label {
+  padding-bottom: 0;
+}
+
+//    ========   oa ===========
+.oa-form-style{
+
+
+}
+.el-popover{
+  .el-popover__title{
+    font-size: 13px;
+    color: #9DA2B3;
+    margin-bottom: 0px;
+  }
+}
+.vue-treeselect__control{
+  border-radius: 2px;
+  border-color: #dcdfe6;
+}
+.vue-treeselect__option{
+  height: 36px;
+  line-height: 36px;
+}
+
+// 阶段结束状态
+.btn-add-status__end .el-form-item__content,
+.status-container .el-form-item__content{
+  margin-left: 0!important;
+}

@@ -1,0 +1,112 @@
+//覆盖表头样式
+.kr-table-header {
+  background-color: #F6F7FB !important;
+  padding: 8px 0 8px !important;
+}
+
+.kr-table-setting-header {
+  text-align: center !important;
+  line-height: 20px !important;
+}
+
+.kr-table-header-label {
+  font-size: 14px !important;
+  color: #525975 !important;
+  line-height: 20px !important;
+  font-weight: 500;
+  max-width: 330px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.kr-table-no-border {
+  border-right: none !important;
+}
+
+.kr-table-cell {
+  padding: 8px 0 !important;
+}
+
+.el-table .cell {
+  font-size: 13px;
+  color: #525975;
+  line-height: 18px;
+  user-select: text;
+  span,a{
+    user-select: text;
+  }
+}
+
+.kr-table-header:last-of-type .kr-table-th-setting-header{
+  @extend .kr-iconfont;
+  text-align: center;
+  &:before {
+    @include kr-fc(20px, #8B8F9E);
+    content: "\e6e1";
+  }
+}
+
+.kr-edit-table {
+  .edit-table-header {
+    line-height: 20px;
+  }
+}
+
+.kr-table-filter-popper {
+  margin-top: 0!important;
+  border-radius: 0;
+}
+
+.stage-base__info ,
+.stage-correlation__file {
+
+  .el-pagination .btn-prev, .el-pagination .btn-next,
+  .el-table__header .kr-table-header {
+    background: #F0F2FB !important;
+    background-color: #F0F2FA !important;
+  }
+
+  .el-table__empty-block {
+    background: #F6F7FB;
+    background-color: #F6F7FB;
+  }
+
+  .md-module-related-table {
+    padding-bottom: 0;
+  }
+
+  .related-items__wrap {
+    width: 100%;
+    .el-table--scrollable-x .el-table__body-wrapper {
+      background: #F6F7FB !important;
+      background-color: #F6F7FB !important;
+    }
+
+  }
+
+  .no-table-data {
+    @extend .el-table__empty-block;
+  }
+
+}
+
+.stage-base__info .el-table__empty-block {
+  background: #F6F7FB;
+  background-color: #F6F7FB;
+}
+
+//// 表格上方操作按钮
+//.kr-operation-button-panel {
+//  margin-bottom: 20px;
+//}
+//
+////dialog 弹出框样式
+//.el-dialog {
+//  width: 600px !important;
+//  margin-top: 60px !important;
+//}
+//
+//.el-dialog__body {
+//  max-height: 600px !important;
+//  overflow: auto;
+//}

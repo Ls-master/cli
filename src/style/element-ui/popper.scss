@@ -1,0 +1,17 @@
+.detail-popper {
+  padding: 8px;
+  max-width: 290px;
+  background: #9DA2B3;
+  color: $color-white;
+  .content {
+    @include kr-font(13px, 16px, $color-white, 300);
+    div:not(:first-child) {
+      margin-top: 5px;
+    }
+  }
+  .popper__arrow {
+    &::after {
+      border-top-color: #9DA2B3 !important;
+    }
+  }
+}

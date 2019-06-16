@@ -1,0 +1,3 @@
+sh ./git_branch.sh saas1.x your_name
+
+for example: sh ./git_branch.sh saas1.1 zhangsan

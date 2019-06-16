@@ -1,0 +1,155 @@
+// 一级 tab
+.el-tabs {
+  .el-tabs__nav {
+    .el-tabs__active-bar {
+      background: $color-primary;
+    }
+  }
+}
+
+// 二级 tab
+.el-tabs.el-tabs--card {
+  .el-tabs__nav {
+    .el-tabs__item {
+      border-bottom: 1px solid #e4e7ed;
+      background: #F6F7FB;
+      font-weight: normal;
+      color: #525975;
+    }
+    .is-active {
+      background: #FFF;
+      color: $color-primary;
+    }
+  }
+}
+
+.md-set-busCus-objectManage-detail {
+  .el-tabs--border-card > .el-tabs__content {
+    padding: 20px !important;
+  }
+}
+
+// 布局页 tab
+.el-tabs.tabs-layout {
+  .el-tabs__header {
+    border: 1px dashed #CACEE0;
+    padding: 0 $padding-base 8px;
+  }
+  .el-tab-pane {
+    border: 1px dashed #CACEE0;
+    padding: 12px $padding-base;
+  }
+}
+
+.bpm-flow-approve-list-wrap {
+  .el-tabs--card > .el-tabs__header .el-tabs__nav {
+    height: 32px;
+  }
+  .el-tabs.el-tabs--card .el-tabs__nav .el-tabs__item {
+    height: inherit;
+    line-height: 1;
+    @extend .global-flex-center;
+    float: left;
+  }
+}
+.bpm-flow-approve-details-wrap {
+  .el-button,
+  .el-button--default,
+  .el-radio-button__inner {
+    padding: 6px 12px;
+  }
+}
+
+.btm-stage-details-wrap {
+  .el-radio-button__inner {
+    padding: 6px 12px;
+    background: #F6F7FB;
+    border: 1px solid #E4E7ED;
+    margin-left: -1px;
+  }
+  .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+    background: #FFFFFF;
+    border: 1px solid #E4E7ED;
+    color: #5C6AC4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .tabs-operate-wrap {
+    margin-top: 20px;
+    display: flex;
+    .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+      padding: 6px 12px;
+      height:32px;
+      line-height: 21px;
+    }
+    .el-radio-button__inner {
+      padding: 6px 12px;
+      height:32px;
+      line-height: 21px;
+    }
+  }
+}
+
+
+.flow-wrap .flow-content {
+  > .el-tabs {
+      height: 100%;
+    > .el-tabs__content {
+        height: inherit;
+      > .el-tab-pane {
+        height: inherit;
+      }
+    }
+  }
+}
+
+// 审批详情页
+.details-content-wrap {
+  .tabs-content-wrap {
+    .el-tabs__header {
+      border: 0;
+      margin-top: 20px;
+
+      .el-tabs__item {
+        height: auto;
+        padding: 6px 1em;
+        line-height: 1;
+      }
+    }
+  }
+
+  .el-tabs__content{
+    height: calc(100% - 20px);
+    overflow-y: auto;
+    padding-bottom: 20px;
+  }
+}
+
+
+// 首页审批
+.ledger-approve__home {
+  .el-tabs{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+    .el-tabs__header{
+      flex-shrink: 0;
+    }
+    .el-tabs__content {
+      flex-grow: 1;
+      position: relative;
+
+      .scrollable-main{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow-y: auto;
+      }
+    }
+  }
+}

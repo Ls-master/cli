@@ -1,0 +1,38 @@
+
+.launch-approve-slect-business__wrap {
+  .el-input__inner {
+    height: 36px;
+  }
+}
+
+
+// 阶段文件重置
+.stage-base__info {
+  width: 100%;
+  .stage-comm_background {
+    background: #F6F7FB !important;
+    background-color: #F6F7FB !important;
+  }
+
+  .el-input--small .el-input__inner {
+    @extend .stage-comm_background;
+  }
+
+  .el-table th, .el-table tr {
+    @extend .stage-comm_background;
+  }
+}
+
+.stage-details-wrap {
+
+  .next-btn {
+
+    .el-button--primary, .el-button {
+      padding: 6px 16px;
+    }
+  }
+
+  .comp-md-form-field-basic-container {
+    // padding: 0;
+  }
+}
