@@ -65,7 +65,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-@mixin ellipsis-lines($w: 100%, $clamp: 2, $orient: 'vertical') {
+@mixin ellipsis-lines($w: 100%, $clamp: 2, $orient: vertical) {
   width: $w;
   overflow: hidden;
   text-overflow: ellipsis;

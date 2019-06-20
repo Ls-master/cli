@@ -11,7 +11,7 @@
 
 <script>
 import { mapState, mapMutations, mapActions } from 'vuex';
-import topMenu from '@/components/home/topMenu/index.vue';
+import topMenu from '@/view/home/index/topMenu.vue';
 
 export default {
   methods: {

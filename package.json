@@ -76,6 +76,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-istanbul": "^4.1.1",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
+    "babel-polyfill": "^6.26.0",
     "chai": "^4.1.2",
     "chalk": "^2.0.1",
     "chromedriver": "^2.45.0",
