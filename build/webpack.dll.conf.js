@@ -10,7 +10,7 @@ module.exports = {
       'vuex', 
       'fullcalendar', 
       'vue-router',
-      'saas3-element-ui',
+      'ls-master-element',
       'quill', 
       'lodash',
       'jquery',

@@ -44,7 +44,7 @@ module.exports = {
     alias: Object.assign({
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      'element-ui': 'saas3-element-ui',
+      'element-ui': 'ls-master-element',
       'jquery-ui': path.resolve('./node_modules/jquery-ui/ui'),
     }, absolutePath)
   },

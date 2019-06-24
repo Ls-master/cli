@@ -35,7 +35,7 @@ export default {
   @import "./style/reset.scss";
   @import "animate.css";
   @import './assets/iconFont/iconfont.css';
-  @import 'saas3-element-ui/lib/theme-chalk/index.css';
+  @import 'ls-master-element/lib/theme-chalk/index.css';
   @import "./style/theme/index.css";
   @import "./style/index.scss";
 </style>
